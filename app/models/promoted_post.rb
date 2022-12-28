@@ -1,0 +1,2 @@
+class PromotedPost < Post
+end
