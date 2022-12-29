@@ -1,10 +1,10 @@
 #/usr/bin/env bash
 
 
-bin/rails g model post
-bin/rails g model promoted_post --parent=post
-bin/rails g model banned_post --parent=post
-bin/rails g model broken_context/post --parent=post
-bin/rails g model delegate_sti_name/post --parent=post
-bin/rails g model disable_sti/post --parent=post
-bin/rails g model default_scope/post --parent=post
+bin/rails g model post type:string -f 
+bin/rails g model promoted_post type:string -f --parent=post
+bin/rails g model banned_post type:string -f --parent=post
+bin/rails g model broken_context/post type:string -f --parent=post
+bin/rails g model delegate_sti_name/post type:string -f --parent=post
+bin/rails g model disable_sti/post type:string -f --parent=post
+bin/rails g model default_scope/post type:string -f --parent=post

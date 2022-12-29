@@ -1,2 +1,2 @@
-class DelegateStiName::Post < Post
+class DelegateSTIName::Post < Post
 end
